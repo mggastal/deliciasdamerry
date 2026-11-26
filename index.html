@@ -124,6 +124,10 @@ h1,h2,h3{font-family:'Quicksand',sans-serif;color:var(--choco);line-height:1.15}
 .cta-final .btn-borda{border-color:#F3A469;color:#F3A469}
 .rodape{background:#2E1A11;color:#BFA393;font-size:.85rem;padding:26px 0;text-align:center}
 .rodape a{color:#F3A469}
+.rodape .dev{display:inline-flex;align-items:center;gap:10px;margin-top:14px;color:#9C8274;font-size:.78rem;letter-spacing:.04em;opacity:.85;transition:opacity .3s}
+.rodape .dev:hover{opacity:1;color:#fff}
+.rodape .dev img{width:110px;height:auto}
+@media (max-width:900px){.rodape{padding-bottom:92px}}
 
 .flutuante{position:fixed;right:18px;bottom:18px;z-index:40;width:58px;height:58px;border-radius:50%;background:var(--verde);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 26px -10px rgba(0,0,0,.45)}
 .flutuante svg{width:30px;height:30px}
@@ -388,7 +392,10 @@ h1,h2,h3{font-family:'Quicksand',sans-serif;color:var(--choco);line-height:1.15}
 </section>
 
 <footer class="rodape">
-  <div class="wrap">Delícias da Merry · Pelotas/RS · <a href="https://www.instagram.com/deliciasdamerry/" target="_blank" rel="noopener">@deliciasdamerry</a></div>
+  <div class="wrap">
+    <div>Delícias da Merry · Pelotas/RS · <a href="https://www.instagram.com/deliciasdamerry/" target="_blank" rel="noopener">@deliciasdamerry</a></div>
+    <a class="dev" href="https://www.grigolettimidias.com.br/?utm_source=deliciasdamerry&amp;utm_medium=site&amp;utm_campaign=deliciasdamerry" target="_blank" rel="noopener">Desenvolvido por <img src="img/grigoletti-midias.png" alt="Grigoletti Mídias" width="110" loading="lazy"></a>
+  </div>
 </footer>
 
 <a class="flutuante whats" data-produto="" href="#" aria-label="Encomendar pelo WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.2 4.24-9.44 9.45-9.44 2.52 0 4.9.99 6.68 2.77a9.38 9.38 0 0 1 2.76 6.68c0 5.21-4.24 9.44-9.45 9.44zm8.04-17.48A11.3 11.3 0 0 0 12.05.7C5.78.7.68 5.8.68 12.06c0 2 .52 3.96 1.52 5.68L.58 23.3l5.7-1.5a11.33 11.33 0 0 0 5.77 1.47c6.26 0 11.36-5.1 11.36-11.36 0-3.03-1.18-5.89-3.32-8.03z"/></svg></a>
